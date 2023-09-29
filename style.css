@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image{
+    margin-left: 250px;
+}
+
+.first-div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 35px;
+    background-color: #f5f5f5;
+}
+
+.first-class{
+    margin-right: 200px;
+}
+
+.first-class>a{
+    text-decoration: none;
+    color: #2b4797;
+    font-weight: 500;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.first-class>a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 150px;
+    padding: 5px;
+    background-color: #fdb915;
+}
+
+.ibadan{
+    margin-top: 200px;
+    margin-left: 250px;
+}
+
+.edit{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.maiden{
+    display: flex;
+    margin-left: 100px;
+}
+
+.maiden>h2{
+    font-size: 30px;
+    font-family: jostans;
+    color: #2b4797;
+}
+
+.cicrcle{
+    border: 1px solid #3dbb96;
+    border-radius: 100%;
+    animation: cicrcle delay 1s infinite;
+}
+
+@keyframes circle {
+    from {
+        transform: translate(-100%)
+    }
+
+    to {
+        transform: translate(100%)
+    }
+}
+
+.sep{
+    display: flex;
+    margin-right: 100px;
+}
+
+.sep>img{
+    margin-right: 10px;
+}
+
+.sep>h2{
+    font-size: 30px;
+    font-family: jostans;
+    color: #2b4797;
+}
+
+.second-div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.second-div .one{
+    margin-left: 100px;
+    width: 800px;
+    font-weight: 650;
+    border: none;
+    color: #213d8d;
+    font-size: 25px;
+}
+
+.second-div .two{
+    margin-right: 100px;
+    width: 800px;
+    font-weight: 650;
+    border: 1px solid #213d8d;
+    color: #213d8d;
+    background-color: white;
+    font-size: 25px;
+}
+
+.Conference{
+    width: 1700px;
+    background-color: rgb(176,138,48);
+    text-align: center;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+.venue>h3{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.venue>p{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.date>h3{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.date>p{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
